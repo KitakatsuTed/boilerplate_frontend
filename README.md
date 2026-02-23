@@ -341,6 +341,16 @@ npx netlify deploy --prod
 
 このフロントエンドボイラープレートは、FastAPIベースのバックエンドボイラープレートと組み合わせて使うことを想定しています。
 
+### 推奨バックエンド
+
+**[boilerplate](https://github.com/KitakatsuTed/boilerplate)** - 本番対応のFastAPIボイラープレート
+
+- **柔軟な認証システム** - JWT、セッション、OAuth2、認証なしを選択可能
+- **複数DB対応** - PostgreSQL、MySQL、SQLite
+- **クリーンアーキテクチャ** - BaseRepositoryパターン、1ファイル1クラス
+- **AI連携** - AWS Bedrock統合（Claude、Titan等）
+- **Claude Codeスキル** - `/add-endpoint`、`/add-model`、`/security-check`等
+
 ### OpenAPI型定義の自動生成
 
 ```bash
